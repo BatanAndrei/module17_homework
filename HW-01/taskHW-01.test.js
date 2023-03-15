@@ -1,8 +1,12 @@
-import {reversString} from './taskHW-01';
+import {getPercents} from './taskHW-01';
 
-describe('add -строка get a reverse -акортс', () => {
+describe('', () => {
 
-  it('add -строка get a reverse -акортс', () => {
-    expect(reversString('строка')).toBe('акортс');
+  it('', () => {
+    expect(getPercents(30, 200)).toBe(60);
     });
+
+    it('', () => {
+      expect(getPercents(30, 200)).toBe(80);
+      });
 });
