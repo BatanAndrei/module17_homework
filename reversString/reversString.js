@@ -1,4 +1,4 @@
-  export function reversString(str) {
+export function reversString(str) {
     let result = str.split('').reverse().join('');
     return result
   }
